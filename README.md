@@ -20,4 +20,6 @@ kind create cluster --config config.yml
 **note:** _config.yml is the file that you copied from the repo_
 
 ### Install k9s for clusters and objects monitoring
-```curl -sS https://webinstall.dev/k9s | bash```
+```bash
+curl -sS https://webinstall.dev/k9s | bash
+```
